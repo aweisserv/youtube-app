@@ -4,7 +4,7 @@
 
 <div class="row row-cols row-cols-md-3 g-4 mt-4">
 
-    <div class="col" *ngFor="let video of videos">
+    <div class="col animated fadeIn" *ngFor="let video of videos">
       <div class="card bg-dark">
         <img [src]="video.thumbnails.high.url" class="card-img-top" alt="...">
         <div class="card-body">
@@ -12,7 +12,7 @@
           <p class="card-text">{{ video.channelTitle }}</p>
           <small><p class="card-text">Fecha de publicación: {{ video.publishedAt | date}}</p></small>
           <div class="d-grid gap-2">
-            <button class="btn btn-outline-light mt-2">Ver video</button>
+            <button (click)="mostrarVideo( video )" class="btn btn-outline-light mt-2">Ver</button>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
 
   <div class="row mt-5 mb-5 text-center">
       <div class="col">
-          <button class="btn btn-outline-light">
+          <button (click)="cargarVideos()" class="btn btn-outline-light">
               Cargar más
           </button>
       </div>
