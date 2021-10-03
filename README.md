@@ -1,4 +1,43 @@
-# Youtubeapp
+# YouTubeApp
+## App demo que utiliza la API de YouTube.
+| Allan Weisser Verdessi
+| a.weisser.v@gmail.com
+
+
+<img align="left" alt="Angular" width="23px" src="https://user-images.githubusercontent.com/19677373/135019551-2c513f0a-69f6-49f8-b525-923b7bb9ffb6.png" />
+<img align="left" alt="TS" width="23px" src="https://user-images.githubusercontent.com/19677373/135018966-b1ee5d5a-a442-4564-9daa-47bab1a6f7a9.png" />
+<img align="left" alt="Bootstrap" width="23px" src="https://user-images.githubusercontent.com/19677373/135018970-237c147b-2e25-477f-845b-5ff74c07294b.png" />
+<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+
+<br><br>
+#### Descripción:
+
+  - Uso de los servicios de YouTube API
+  - Página que muestra una lista de reproducción
+  - Botón para mostrar videos siguientes (página 2, 3, ..., n)
+  - Reproductor de video seleccionado de YouTube
+  
+
+Datos técnicos generales:
+
+  - Creada con Angular 11.2 y Bootstrap 4
+  - Uso de componentes, servicios, y observables
+  - Uso de animaciones con CSS, Bootstrap y SweetAlert2
+    
+  
+  #### Capturas:
+
+![Screenshot 2021-10-02 231556](https://user-images.githubusercontent.com/19677373/135738207-2f9272aa-2796-4d0f-8148-6437188a63d6.png)
+
+![Screenshot 2021-10-02 231650](https://user-images.githubusercontent.com/19677373/135738208-828cf096-bac8-4fe1-8fef-524851cfea8c.png)
+
+![Screenshot 2021-10-02 231804](https://user-images.githubusercontent.com/19677373/135738211-f3ae3da6-6d1b-487a-b8d8-6bf89677ef73.png)
+
+
+
+
+--------------
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
